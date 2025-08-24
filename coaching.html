@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accountability Coaching · Royal Bloom Consulting</title>
+  <meta name="description" content="Accountability Coaching that keeps your governance, compliance, and operations on track so your structure produces long-term wealth.">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.svg" alt="" width="32" height="32">
+        <span>Royal Bloom</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html#pillars">Pillars</a></li>
+        <li><a href="index.html#services">Packages</a></li>
+        <li><a href="index.html#work">Structures</a></li>
+        <li><a aria-current="page" href="coaching.html">Coaching</a></li>
+        <li><a href="index.html#contact">Start</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="container">
+    <section class="section">
+      <header class="section-head">
+        <h1>Accountability Coaching</h1>
+        <p>Your structure is only as strong as your cadence. Coaching keeps governance and operations moving—week after week.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Weekly Sprint</h3>
+          <ul>
+            <li>30–45 min live session</li>
+            <li>Priority checklist for the week</li>
+            <li>Compliance & filings reminders</li>
+            <li>Inbox/ops cleanup sprint</li>
+          </ul>
+          <p class="price">$349/month</p>
+        </article>
+        <article class="card">
+          <h3>Monthly Cadence</h3>
+          <ul>
+            <li>60 min strategy session</li>
+            <li>Quarterly governance tracker</li>
+            <li>Metrics & cashflow review</li>
+            <li>Document vault upkeep</li>
+          </ul>
+          <p class="price">$149/month</p>
+        </article>
+        <article class="card">
+          <h3>On-Demand</h3>
+          <ul>
+            <li>Book by the hour</li>
+            <li>Deep dives on structure/ops</li>
+            <li>Emergency filings support</li>
+          </ul>
+          <p class="price">$95/hour</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <header class="section-head">
+        <h2>What we work on</h2>
+        <p>We focus on the actions that preserve control and grow value.</p>
+      </header>
+      <ul class="pillars" style="grid-template-columns: 1fr 1fr 1fr;">
+        <li class="pillar"><h3>Governance rhythm</h3><p>Quarterly meetings, minutes, consents, and decisions logged cleanly.</p></li>
+        <li class="pillar"><h3>Compliance calendar</h3><p>Annual reports, RA renewals, tax milestones, licenses.</p></li>
+        <li class="pillar"><h3>Cash & docs hygiene</h3><p>Inter-company flows aligned; document vaults and naming conventions intact.</p></li>
+      </ul>
+    </section>
+
+    <section class="section" id="book">
+      <header class="section-head">
+        <h2>Book a coaching intro</h2>
+        <p>Share a few details and we’ll confirm a time.</p>
+      </header>
+      <!-- Netlify form handling -->
+      <form class="contact" name="coaching" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="coaching">
+        <div class="grid">
+          <label>
+            <span>Your name</span>
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+        </div>
+        <label>
+          <span>Which plan?</span>
+          <select name="plan" required>
+            <option value="Weekly Sprint">Weekly Sprint</option>
+            <option value="Monthly Cadence">Monthly Cadence</option>
+            <option value="On-Demand Hourly">On-Demand Hourly</option>
+          </select>
+        </label>
+        <label>
+          <span>Your priorities</span>
+          <textarea name="message" rows="6" placeholder="e.g., File DE annual report; standardize minutes; set HoldCo cash lanes."></textarea>
+        </label>
+        <div class="actions">
+          <button class="btn primary" type="submit">Request intro</button>
+          <a class="btn ghost" href="mailto:hello@royalbloom.co?subject=Coaching%20Intro">Email instead</a>
+        </div>
+        <p class="form-note">This form posts to Netlify—enable Forms in your site dashboard to receive submissions.</p>
+      </form>
+      <p class="small">Disclaimer: Coaching is advisory/operational support. We coordinate with your attorney/CPA as needed.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Royal Bloom Consulting</strong> · Business architecture & coaching.</p>
+      <p class="small">© <span id="year"></span> Royal Bloom. All rights reserved. · <a href="index.html#top">Back to top</a></p>
+    </div>
+  </footer>
+</body>
+</html>

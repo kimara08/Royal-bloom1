@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer-when-downgrade"
+
+# Redirect /coaching to coaching.html for pretty URL
+[[redirects]]
+  from = "/coaching"
+  to = "/coaching.html"
+  status = 301

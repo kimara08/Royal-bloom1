@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420">
+  <rect width="760" height="420" fill="#fefbf2"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14">
+    <rect x="80" y="60" width="220" height="60" rx="12" fill="#3b2a91" opacity=".9"/>
+    <text x="190" y="96" text-anchor="middle" fill="#fff">Quarterly Governance</text>
+    <rect x="300" y="60" width="180" height="60" rx="12" fill="#eab308" opacity=".95"/>
+    <text x="390" y="96" text-anchor="middle" fill="#000">Role Charters</text>
+    <rect x="480" y="60" width="200" height="60" rx="12" fill="#3b2a91" opacity=".9"/>
+    <text x="580" y="96" text-anchor="middle" fill="#fff">Decision Matrix</text>
+    <line x1="190" y1="120" x2="390" y2="180" stroke="#3b2a91" stroke-width="2"/>
+    <line x1="390" y1="120" x2="580" y2="180" stroke="#3b2a91" stroke-width="2"/>
+    <rect x="180" y="180" width="200" height="60" rx="12" fill="#fff" stroke="#3b2a91"/>
+    <text x="280" y="216" text-anchor="middle" fill="#000">Continuity Memos</text>
+    <rect x="400" y="180" width="200" height="60" rx="12" fill="#fff" stroke="#3b2a91"/>
+    <text x="500" y="216" text-anchor="middle" fill="#000">Keys & Codes Pack</text>
+  </g>
+</svg>
